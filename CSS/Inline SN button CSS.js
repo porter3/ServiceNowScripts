@@ -1,0 +1,13 @@
+ var p = top.document.createElement('a');
+    p.innerText = 'Copy';
+    p.style.padding = '6px';
+    p.style.backgroundColor = '#FFFFFF';
+    p.style.textDecoration = 'none';
+    p.style.fontWeight ='bold';
+    p.style.color = "#5054bc";
+    p.style.borderRadius ='4px';
+    p.style.borderStyle = 'solid';
+    p.style.borderColor = '#5054bc';
+    p.style.borderWidth = 'thin';
+    p.style.cursor ='pointer';
+    p.style.margin = '4px';
