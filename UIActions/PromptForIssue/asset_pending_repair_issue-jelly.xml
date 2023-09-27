@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <g:dialog_reason_ok_cancel dialog_id="asset_pending_repair_issue"
+        textarea_id="asset_pending_repair_issue_text"
+        textarea_label="Reason"
+        textarea_label_title="Please explain what requires repair"
+        textarea_name="asset_pending_repair_issue_text"
+        textarea_onkeyup="enableButton()"
+        textarea_onchange="enableButton()"
+        textarea_style="height:auto; width: 100%; resize: vertical;"
+        textarea_title="Enter the explanation here"
+
+        ok_action="invokePromptCallBack"
+        ok="return invokePromptCallBack('onPromptComplete');"
+        cancel="return invokePromptCallBack('onPromptCancel');"
+    />
+</j:jelly>
