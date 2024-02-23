@@ -1,3 +1,5 @@
+// Logs duplicate Computer CI serial numebrs in a comma-separated string that can then be used in a 'Serial number is one of ___' query.
+
 var commaSepList = '';
 
 var ga = new GlideAggregate('cmdb_ci_computer');
