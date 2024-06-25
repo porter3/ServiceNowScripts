@@ -1,4 +1,4 @@
-// for syncing two date-time fields
+// for syncing a date-time field with a date field
 
 (function executeRule(current, previous /*null when async*/) {
 
