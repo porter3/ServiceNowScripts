@@ -1,0 +1,3 @@
+var asset = new GlideRecord('u_asset');
+
+// Update warranty details...
