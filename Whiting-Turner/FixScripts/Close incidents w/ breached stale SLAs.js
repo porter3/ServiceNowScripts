@@ -1,0 +1,3 @@
+var incident = new GlideRecord('incident');
+
+// Resolve if breached SLA and stale for too long...
