@@ -1,0 +1,3 @@
+var asset = new GlideRecord('u_asset');
+
+// Extract custom data from asset...
