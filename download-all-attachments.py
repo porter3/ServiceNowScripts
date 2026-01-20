@@ -12,7 +12,7 @@ CSV_FILE = 'nameOfYourCSVFile.csv'
 
 ATTACHMENT_API = "/api/now/attachment"
 TABLE_API = "/api/now/table"
-SERVICENOW_URL = "https://fcbtexasdev2.service-now.com/"
+SERVICENOW_URL = "https://___.service-now.com/"
 TABLE_NAME = "incident"
 COLUMN_HEADER = "inc_number"
 ROWS_BEFORE_SLEEP = 120
