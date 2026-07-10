@@ -1,3 +1,7 @@
+/*
+Generates the request body and related POST endpoint to send a request to for initiating a batch of application/plugin updates.
+*/
+
 var LOAD_DEMO_DATA = false;
 var INSTANCE_DOMAIN = gs.getProperty('instance_name') + '.servicenowservices';
 var POST_URL = 'https://' + INSTANCE_DOMAIN + '.com/api/sn_cicd/app/batch/install';
